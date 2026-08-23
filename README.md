@@ -95,3 +95,39 @@ Recycle Bin
 Empty Recycle Bin
   ↓
 File disappears
+
+
+💾 How Deleted Data Can Remain
+
+A common misunderstanding is:
+
+"If I empty the Recycle Bin, the data is immediately physically destroyed."
+
+This is not necessarily true for every storage situation.
+
+A simplified concept is:
+
+Original File
+     ↓
+User Deletes File
+     ↓
+Recycle Bin
+     ↓
+Recycle Bin Emptied
+     ↓
+File No Longer Visible
+     ↓
+Some Data/Metadata May Remain
+     ↓
+Forensic Examination
+
+Depending on the storage technology and system behavior, forensic examination may find:
+
+Filesystem metadata
+Deleted file records
+Unallocated storage content
+File fragments
+Application artifacts
+Other related digital traces
+
+However, recoverability is highly dependent on the actual device and circumstances.
